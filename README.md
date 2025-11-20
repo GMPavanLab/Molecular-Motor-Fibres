@@ -1,4 +1,5 @@
 # Molecular Motor Fibre Toolkit
+**CONTACT:** [mattias.akke@gmail.com](mailto:mattias.akke@gmail.com)
 
 Living muscles amplify nanometre-scale actin–myosin motion into centimetre-scale
 work.  Artificial molecular muscles based on Feringa-type rotary motors follow
@@ -62,6 +63,3 @@ fine-grained control if you need to deviate from the default pipeline.
   pre-processing input files.
 - Mapping/CG assets (e.g., `mapping_MM2*.ndx`, CG solvent boxes) live alongside
   the directories listed above and are consumed by the coarse-graining modules.
-
-## Contact
-Questions or bug reports: **Mattias Karlsson** – `mattias.karlsson@example.com`
