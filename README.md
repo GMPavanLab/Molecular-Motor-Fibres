@@ -36,7 +36,7 @@ motor’s chemistry propagates to fibre-scale mechanics and bundle response.
 | `coarse_grain_MM2/` | Full AA→CG pipeline for the MM2 motor core (mapping, fitting, SASA). | [coarse_grain_MM2/README](coarse_grain_MM2/README.md) |
 | `coarse_grain_FMM/` | Functional-group analogue of the MM2 pipeline (MM2a motors). | [coarse_grain_FMM/README](coarse_grain_FMM/README.md) |
 | `dimerisation PMF/` | PMF calculations for AA & CG motor dimers. | (see folder notes) |
-| `annealing/` | Annealing protocol tests for AA fibres. | (see folder notes) |
+| `annealing/` | Annealing protocol tests for AA fibres. | (experimental) |
 | `structure_files/` | Shared AA/CG structures, topologies, mappings (see below). | — |
 
 Each README documents the local `run_all` scripts, inputs, outputs, and known
