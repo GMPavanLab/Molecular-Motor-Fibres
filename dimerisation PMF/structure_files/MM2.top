@@ -1,0 +1,52 @@
+;
+;   File MM2.top  was generated
+;   By user: makke (1013)
+;   On host:katanga 
+;   At date:Thu. June  4 09:31:09 2023 
+;
+;   This is a standalone topology file
+;
+;   Created by:
+;   ParmEd:       , VERSION4.1.0 
+;   Executable:   
+;   Library dir:  /usr/local/gromacs/share/gromacs/top
+;   Command line:
+;     
+;
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5          0.83333333  
+
+[ atomtypes ]
+; name    at.num    mass    charge ptype  sigma      epsilon
+OW           8      16.00    0.0000  A   3.15061e-01  6.36386e-01
+HW           1       1.008   0.0000  A   0.00000e+00  0.00000e+00
+Cl          17      35.45    0.0000  A   4.47766e-01  1.48913e-01
+Na          11      22.99    0.0000  A   2.43928e-01  3.65846e-02
+MG          12      24.305   0.0000  A   1.41225e-01  3.74342e+00
+C0          20      40.08    0.0000  A   3.05240e-01  1.92376e+00
+K           19      39.10    0.0000  A   3.03797e-01  8.10369e-01
+Li           3       6.94    0.0000  A   2.02590e-01  7.65672e-02
+Zn          30      65.4     0.0000  A   1.95998e-01  5.23000e-02
+ca             6  12.010000  0.00000000  A     0.33152123      0.4133792
+ha             1   1.008000  0.00000000  A     0.26254785      0.0673624
+ss            16  32.060000  0.00000000  A     0.35324134      1.1815616
+c6             6  12.010000  0.00000000  A     0.33996695      0.4577296
+c3             6  12.010000  0.00000000  A     0.33977095      0.4510352
+hc             1   1.008000  0.00000000  A      0.2600177      0.0870272
+h1             1   1.008000  0.00000000  A     0.24219973      0.0870272
+ce             6  12.010000  0.00000000  A     0.33152123      0.4133792
+cd             6  12.010000  0.00000000  A     0.33152123      0.4133792
+
+#include "../structure_files/MM2-R.itp"
+#include "../structure_files/MM2-S.itp"
+#include "../structure_files/sol_ions_gaff.itp"
+
+[ system ]
+; Name
+Generic title
+
+[ molecules ]
+; Compound       #mols
+MM2-R                  1

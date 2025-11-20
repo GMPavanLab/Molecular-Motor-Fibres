@@ -1,0 +1,153 @@
+====================================================================================
+-------------------------------ring property (I)------------------------------------
+
+====================================================================================
+-------------------------------ring property (II)------------------------------------
+
+====================================================================================
+-------------------------------ring property (III)-----------------------------------
+atom[ 1] (C201) is not in any ring (nr[1]=1)
+atom[ 2] (C202) is not in any ring (nr[2]=1)
+atom[ 3] (H   ) is not in any ring (nr[3]=1)
+atom[ 4] (C203) is not in any ring (nr[4]=1)
+atom[ 5] (H1  ) is not in any ring (nr[5]=1)
+atom[ 6] (H2  ) is not in any ring (nr[6]=1)
+atom[ 7] (H3  ) is not in any ring (nr[7]=1)
+atom[ 8] (C204) is not in any ring (nr[8]=1)
+atom[ 9] (H4  ) is not in any ring (nr[9]=1)
+atom[10] (C205) is not in any ring (nr[10]=1)
+atom[11] (H5  ) is not in any ring (nr[11]=1)
+atom[12] (H6  ) is not in any ring (nr[12]=1)
+atom[13] (H7  ) is not in any ring (nr[13]=1)
+atom[14] (C206) is not in any ring (nr[14]=1)
+atom[15] (H8  ) is not in any ring (nr[15]=1)
+atom[16] (C207) is not in any ring (nr[16]=1)
+atom[17] (H10 ) is not in any ring (nr[17]=1)
+atom[18] (H11 ) is not in any ring (nr[18]=1)
+atom[19] (H12 ) is not in any ring (nr[19]=1)
+atom[20] (C208) is not in any ring (nr[20]=1)
+atom[21] (H13 ) is not in any ring (nr[21]=1)
+atom[22] (C209) is not in any ring (nr[22]=1)
+atom[23] (H14 ) is not in any ring (nr[23]=1)
+atom[24] (H15 ) is not in any ring (nr[24]=1)
+atom[25] (H16 ) is not in any ring (nr[25]=1)
+atom[26] (C210) is not in any ring (nr[26]=1)
+atom[27] (O201) is not in any ring (nr[27]=1)
+atom[28] (O202) is not in any ring (nr[28]=1)
+atom[29] (C969) is not in any ring (nr[29]=1)
+atom[30] (H17 ) is not in any ring (nr[30]=1)
+atom[31] (H18 ) is not in any ring (nr[31]=1)
+atom[32] (H969) is not in any ring (nr[32]=1)
+atom[33] (H968) is not in any ring (nr[33]=1)
+atom[34] (H967) is not in any ring (nr[34]=1)
+
+====================================================================================
+-------------------------------aromatic property------------------------------------
+
+====================================================================================
+-------------------------------electronic property----------------------------------
+atom [ 1] (C201) is not an electron-withdrew atom
+atom [ 2] (C202) is not an electron-withdrew atom
+atom [ 3] (H   ) is not an electron-withdrew atom
+atom [ 4] (C203) is not an electron-withdrew atom
+atom [ 5] (H1  ) is not an electron-withdrew atom
+atom [ 6] (H2  ) is not an electron-withdrew atom
+atom [ 7] (H3  ) is not an electron-withdrew atom
+atom [ 8] (C204) is not an electron-withdrew atom
+atom [ 9] (H4  ) is not an electron-withdrew atom
+atom [10] (C205) is not an electron-withdrew atom
+atom [11] (H5  ) is not an electron-withdrew atom
+atom [12] (H6  ) is not an electron-withdrew atom
+atom [13] (H7  ) is not an electron-withdrew atom
+atom [14] (C206) is not an electron-withdrew atom
+atom [15] (H8  ) is not an electron-withdrew atom
+atom [16] (C207) is not an electron-withdrew atom
+atom [17] (H10 ) is not an electron-withdrew atom
+atom [18] (H11 ) is not an electron-withdrew atom
+atom [19] (H12 ) is not an electron-withdrew atom
+atom [20] (C208) is not an electron-withdrew atom
+atom [21] (H13 ) is not an electron-withdrew atom
+atom [22] (C209) is not an electron-withdrew atom
+atom [23] (H14 ) is not an electron-withdrew atom
+atom [24] (H15 ) is not an electron-withdrew atom
+atom [25] (H16 ) is not an electron-withdrew atom
+atom [26] (C210) is not an electron-withdrew atom
+atom [27] (O201) is an electron-withdrew atom
+atom [28] (O202) is an electron-withdrew atom
+atom [29] (C969) is not an electron-withdrew atom
+atom [30] (H17 ) is not an electron-withdrew atom
+atom [31] (H18 ) is not an electron-withdrew atom
+atom [32] (H969) is not an electron-withdrew atom
+atom [33] (H968) is not an electron-withdrew atom
+atom [34] (H967) is not an electron-withdrew atom
+
+====================================================================================
+--------------------------------connectivity property-------------------------------
+atom[ 1] (C201)     2  C202
+atom[ 1] (C201)    29  C969
+atom[ 1] (C201)    30   H17
+atom[ 1] (C201)    31   H18
+atom[ 2] (C202)     1  C201
+atom[ 2] (C202)     3     H
+atom[ 2] (C202)     4  C203
+atom[ 2] (C202)     5    H1
+atom[ 3] (H   )     2  C202
+atom[ 4] (C203)     2  C202
+atom[ 4] (C203)     6    H2
+atom[ 4] (C203)     7    H3
+atom[ 4] (C203)     8  C204
+atom[ 5] (H1  )     2  C202
+atom[ 6] (H2  )     4  C203
+atom[ 7] (H3  )     4  C203
+atom[ 8] (C204)     4  C203
+atom[ 8] (C204)     9    H4
+atom[ 8] (C204)    10  C205
+atom[ 8] (C204)    11    H5
+atom[ 9] (H4  )     8  C204
+atom[10] (C205)     8  C204
+atom[10] (C205)    12    H6
+atom[10] (C205)    13    H7
+atom[10] (C205)    14  C206
+atom[11] (H5  )     8  C204
+atom[12] (H6  )    10  C205
+atom[13] (H7  )    10  C205
+atom[14] (C206)    10  C205
+atom[14] (C206)    15    H8
+atom[14] (C206)    16  C207
+atom[14] (C206)    17   H10
+atom[15] (H8  )    14  C206
+atom[16] (C207)    14  C206
+atom[16] (C207)    18   H11
+atom[16] (C207)    19   H12
+atom[16] (C207)    20  C208
+atom[17] (H10 )    14  C206
+atom[18] (H11 )    16  C207
+atom[19] (H12 )    16  C207
+atom[20] (C208)    16  C207
+atom[20] (C208)    21   H13
+atom[20] (C208)    22  C209
+atom[20] (C208)    23   H14
+atom[21] (H13 )    20  C208
+atom[22] (C209)    20  C208
+atom[22] (C209)    24   H15
+atom[22] (C209)    25   H16
+atom[22] (C209)    26  C210
+atom[23] (H14 )    20  C208
+atom[24] (H15 )    22  C209
+atom[25] (H16 )    22  C209
+atom[26] (C210)    22  C209
+atom[26] (C210)    27  O201
+atom[26] (C210)    28  O202
+atom[27] (O201)    26  C210
+atom[28] (O202)    26  C210
+atom[29] (C969)     1  C201
+atom[29] (C969)    32  H969
+atom[29] (C969)    33  H968
+atom[29] (C969)    34  H967
+atom[30] (H17 )     1  C201
+atom[31] (H18 )     1  C201
+atom[32] (H969)    29  C969
+atom[33] (H968)    29  C969
+atom[34] (H967)    29  C969
+----------------------------------------END-----------------------------------------
+

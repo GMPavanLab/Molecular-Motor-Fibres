@@ -1,0 +1,19 @@
+;;;;;; Sodium
+
+[ moleculetype ]
+; molname   nrexcl
+  NA        1
+
+[ atoms ]
+; id    type    resnr   residue  atom   cgnr  charge
+  1     TQ5      1       Ions     NA     1     1      
+
+;;;;;; Cloride
+
+[ moleculetype ]
+; molname   nrexcl
+  CL        1
+
+[ atoms ]
+; id    type    resnr   residue  atom   cgnr  charge
+  1     TQ5      1       Ions     CL     1     -1      

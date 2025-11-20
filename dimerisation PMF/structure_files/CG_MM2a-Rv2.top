@@ -1,0 +1,18 @@
+; Include forcefield parameters
+#include "../structure_files/martini_v3.0.0.itp"
+#include "../structure_files/martini_v3.0.0_solvents_v1.itp"
+#include "../structure_files/ions.itp"
+
+; Include chain topologies
+#include "../structure_files/CG_MM2a-Rv2.itp"
+#include "../structure_files/CG_MM2a-Sv2.itp"
+#include "../structure_files/CG_MM2b-Rv2.itp"
+#include "../structure_files/CG_MM2b-Sv2.itp"
+
+[ system ]
+; Name
+Molecule in a solvent
+
+[ molecules ]
+; Compound        #mols
+MM2a-R                1

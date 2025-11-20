@@ -1,0 +1,31 @@
+
+
+title                    = Martini ('new' parameters for) Energy Minimization 
+
+; TIMESTEP IN MARTINI 
+; Most simulations are numerically stable with dt=40 fs, 
+; however better energy conservation is achieved using a 
+; 20-30 fs timestep. 
+; Time steps smaller than 20 fs are not required unless specifically stated in the itp file.
+
+integrator               = steep
+emtol                    = 100.0        ; Stop minimization when the maximum force < 1000.0 kJ/mol/nm
+nsteps                   = 100000
+nstcomm                  = 100
+emstep                   = 0.01          ; Minimization step size
+
+
+; Parameters describing how to find the neighbors of each atom and how to calculate the interactions
+nstlist         = 30         ; Frequency to update the neighbor list and long range forces
+cutoff-scheme   = Verlet    ; Buffered neighbor searching
+ns_type         = grid      ; Method to determine neighbor list (simple, grid)
+
+verlet-buffer-tolerance  = 0.005
+coulombtype              = Reaction-Field ; I DO NOT KNOW HOW THIS WORKS
+coulomb-modifier         = Potential-shift-verlet
+rcoulomb                 = 1.1
+epsilon_r                = 15	; 2.5 (with polarizable water)
+epsilon_rf               = 80
+vdw_type                 = cutoff  
+vdw-modifier             = Potential-shift-verlet
+rvdw                     = 1.1

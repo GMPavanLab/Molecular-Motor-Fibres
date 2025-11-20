@@ -1,0 +1,62 @@
+
+# All the atoms from diferent molecules will be at least 11 Angstrons
+# apart at the solution
+
+tolerance 1.5
+movebadrandom
+# The output file name
+
+output ../system/scales_n11_3/scales_n11_3.pdb
+filetype pdb
+writeout -1
+
+# Cylinder with 50 molecules in circomference and 4 molecules long.
+structure ../../structure_files/pdb/motor2m-R.pdb
+  number 50
+  inside box -100 -100 -50 100 100 50
+
+  atoms 21
+    inside cylinder 0. 0. -200. 0. 0. 1. 20. 400.
+  end atoms
+
+  atoms 72
+    outside cylinder 0. 0. -200. 0. 0. 1. 40. 400.
+  end atoms
+
+  atoms 39 49 41 42 43 44 45 46 52 53 54 55 63 64 65 66 67 68 69 70 71 72 110 111 112 113 117 118
+    radius 1.4
+
+  constrain_rotation y 0. 0
+  constrain_rotation x 0. 0
+end structure 
+
+# Cylinder with 50 molecules in circomference and 4 molecules long.
+structure ../../structure_files/pdb/motor2m-S.pdb
+  number 50
+  inside box -100 -100 -50 100 100 50
+
+  atoms 21
+    inside cylinder 0. 0. -200. 0. 0. 1. 20. 400.
+  end atoms
+
+  atoms 72
+    outside cylinder 0. 0. -200. 0. 0. 1. 40. 400.
+  end atoms
+
+  atoms 39 49 41 42 43 44 45 46 52 53 54 55 63 64 65 66 67 68 69 70 71 72 110 111 112 113 117 118
+    radius 1.4
+
+  constrain_rotation y 0. 0
+  constrain_rotation x 0. 0
+end structure 
+
+# Adding 200 Na+ to system.
+structure ../structure_files/NA.pdb
+  number 200
+  inside box -100 -100 -50 100 100 50
+
+  atoms 1
+    outside cylinder 0. 0. -200. 0. 0. 1. 45. 400.
+    inside cylinder 0. 0. -200. 0. 0. 1. 55. 400.
+  end atoms
+end structure 

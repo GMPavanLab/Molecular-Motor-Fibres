@@ -1,0 +1,2 @@
+Figure 3 f. mdrun300 is a rotation of all motors in very short simulation, here you can see the fiber swell and motors get ejected. Continuation shows subsequent contraction of box over 100 ns (z.xvg).
+From molecular_muscle/mdruns/rotate_motors_in_fibre/run

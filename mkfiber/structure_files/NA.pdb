@@ -1,0 +1,7 @@
+HEADER    Ideal coordinates
+ for PDB-CCD NA
+COMPND    NA
+AUTHOR    pdbccdutils 0.7.2
+AUTHOR    RDKit 2022.09.5
+HETATM    1 NA    NA A   1       0.000   0.000   0.000  1.00 20.00          NA1+
+END

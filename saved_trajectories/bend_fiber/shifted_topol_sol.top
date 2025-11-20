@@ -1,0 +1,60 @@
+; Include forcefield parameters
+#include "martini_v3.0.0.itp"
+#include "martini_v3.0.0_solvents_v1.itp"
+#include "ions.itp"
+
+; Include chain topologies
+#include "CG_motorb-R.itp"
+#include "CG_motorb-S.itp"
+
+#include "CG_motor2m-R.itp"
+
+
+
+#include "CG_motor2m-S.itp"
+
+
+[ system ]
+; Name
+Coarse grained fibre 15 motors per nm in water
+
+[ molecules ]
+; Compound        #mols
+MOTOR-R                55
+MOTOR-S                55
+MOTOR-R                55
+MOTOR-S                55
+MOTOR-R                55
+MOTOR-S                55
+MOTOR-R                55
+MOTOR-S                55
+MOTOR-R                55
+MOTOR-S                55
+MOTOR-R                55
+MOTOR-S                55
+MOTOR-R                55
+MOTOR-S                55
+MOTOR-R                55
+MOTOR-S                55
+MOTOR-R                55
+MOTOR-S                55
+MOTOR-R                55
+MOTOR-S                55
+MOTOR-R                55
+MOTOR-S                55
+MOTOR-R                55
+MOTOR-S                55
+MOTOR-R                55
+MOTOR-S                55
+MOTOR-R                55
+MOTOR-S                55
+MOTOR-R                55
+MOTOR-S                55
+MOTOR-R                55
+MOTOR-S                55
+MOTOR-R                55
+MOTOR-S                55
+MOTOR-R                55
+MOTOR-S                55
+CA 1980
+W    197011

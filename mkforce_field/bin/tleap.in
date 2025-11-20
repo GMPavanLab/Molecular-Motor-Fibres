@@ -1,0 +1,11 @@
+source leaprc.gaff2
+loadamberparams ../tmp/HEAD.frcmod 
+loadamberprep ../tmp/HEAD.prepi
+loadamberparams ../tmp/RLEG2m.frcmod 
+loadamberprep ../tmp/RLEG2m.prepi
+loadamberparams ../tmp/CORE2m-S.frcmod 
+loadamberprep ../tmp/CORE2m-S.prepi
+mol = sequence {HED COR RLG}
+savemol2 mol ../output/motor2m-S.mol2 0
+saveamberparm mol ../tmp/motor2m-S.prmtop ../tmp/motor2m-S.inpcrd
+quit

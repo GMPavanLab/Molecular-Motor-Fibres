@@ -1,0 +1,28 @@
+; Include forcefield parameters
+#include "../structure_files/martini_v3.0.0.itp"
+#include "../structure_files/martini_v3.0.0_solvents_v1.itp"
+#include "../structure_files/ions.itp"
+
+; Include chain topologies
+#include "../structure_files/CG_motor2m-R.itp"
+
+#ifdef POSRES_FIBRE
+#include "../structure_files/posres_fibre.itp"
+#endif
+
+#include "../structure_files/CG_motor2m-S.itp"
+
+#ifdef POSRES_FIBRE
+#include "../structure_files/posres_fibre.itp"
+#endif
+
+[ system ]
+; Name
+Coarse grained fibre 15 motors per nm in water
+
+[ molecules ]
+; Compound        #mols
+MOTOR-R                55
+MOTOR-S                55
+MOTOR-R                55
+MOTOR-S                55

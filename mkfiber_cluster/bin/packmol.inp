@@ -1,0 +1,185 @@
+
+# All the atoms from diferent molecules will be at least 11 Angstrons
+# apart at the solution
+
+tolerance 1
+# The output file name
+
+output ../tmp/packmol.pdb
+filetype pdb
+writeout -1
+
+# 3 fibres in hexagonal packing.
+structure ../tmp/fibre_vacuum.pdb
+  number 1
+  center
+  fixed 0 -0 0. 0. 0. 0.
+end structure 
+structure ../tmp/fibre_vacuum.pdb
+  number 1
+  center
+  fixed 70.00 -0 0. 0. 0. 0.
+end structure 
+structure ../tmp/fibre_vacuum.pdb
+  number 1
+  center
+  fixed -70.00 -0 0. 0. 0. 0.
+end structure 
+
+# 3 fibres in hexagonal packing.
+structure ../tmp/fibre_vacuum.pdb
+  number 1
+  center
+  fixed 35.00 -60.20 0. 0. 0. 0.
+end structure 
+structure ../tmp/fibre_vacuum.pdb
+  number 1
+  center
+  fixed 105.00 -60.20 0. 0. 0. 0.
+end structure 
+structure ../tmp/fibre_vacuum.pdb
+  number 1
+  center
+  fixed -35.00 -60.20 0. 0. 0. 0.
+end structure 
+
+# 3 fibres in hexagonal packing.
+structure ../tmp/fibre_vacuum.pdb
+  number 1
+  center
+  fixed 0 -120.40 0. 0. 0. 0.
+end structure 
+structure ../tmp/fibre_vacuum.pdb
+  number 1
+  center
+  fixed 70.00 -120.40 0. 0. 0. 0.
+end structure 
+structure ../tmp/fibre_vacuum.pdb
+  number 1
+  center
+  fixed -70.00 -120.40 0. 0. 0. 0.
+end structure 
+
+# 3 fibres in hexagonal packing.
+structure ../tmp/fibre_vacuum.pdb
+  number 1
+  center
+  fixed 35.00 -180.60 0. 0. 0. 0.
+end structure 
+structure ../tmp/fibre_vacuum.pdb
+  number 1
+  center
+  fixed 105.00 -180.60 0. 0. 0. 0.
+end structure 
+structure ../tmp/fibre_vacuum.pdb
+  number 1
+  center
+  fixed -35.00 -180.60 0. 0. 0. 0.
+end structure 
+
+# 3 fibres in hexagonal packing.
+structure ../tmp/fibre_vacuum.pdb
+  number 1
+  center
+  fixed 0 -240.80 0. 0. 0. 0.
+end structure 
+structure ../tmp/fibre_vacuum.pdb
+  number 1
+  center
+  fixed 70.00 -240.80 0. 0. 0. 0.
+end structure 
+structure ../tmp/fibre_vacuum.pdb
+  number 1
+  center
+  fixed -70.00 -240.80 0. 0. 0. 0.
+end structure 
+structure ../structure_files/CA.pdb
+  number 220
+  inside box -500 -500 -72.40 500 500 72.40
+  outside cylinder -70.00 -0 -200. 0. 0. 1. 27 400
+  inside cylinder -70.00 -0 -200. 0. 0. 1. 40 400
+end structure
+structure ../structure_files/CA.pdb
+  number 220
+  inside box -500 -500 -72.40 500 500 72.40
+  outside cylinder 0 -0 -200. 0. 0. 1. 27 400
+  inside cylinder 0 -0 -200. 0. 0. 1. 40 400
+end structure
+structure ../structure_files/CA.pdb
+  number 220
+  inside box -500 -500 -72.40 500 500 72.40
+  outside cylinder 70.00 -0 -200. 0. 0. 1. 27 400
+  inside cylinder 70.00 -0 -200. 0. 0. 1. 40 400
+end structure
+structure ../structure_files/CA.pdb
+  number 220
+  inside box -500 -500 -72.40 500 500 72.40
+  outside cylinder -35.00 -60.20 -200. 0. 0. 1. 27 400
+  inside cylinder -35.00 -60.20 -200. 0. 0. 1. 40 400
+end structure
+structure ../structure_files/CA.pdb
+  number 220
+  inside box -500 -500 -72.40 500 500 72.40
+  outside cylinder 35.00 -60.20 -200. 0. 0. 1. 27 400
+  inside cylinder 35.00 -60.20 -200. 0. 0. 1. 40 400
+end structure
+structure ../structure_files/CA.pdb
+  number 220
+  inside box -500 -500 -72.40 500 500 72.40
+  outside cylinder 105.00 -60.20 -200. 0. 0. 1. 27 400
+  inside cylinder 105.00 -60.20 -200. 0. 0. 1. 40 400
+end structure
+structure ../structure_files/CA.pdb
+  number 220
+  inside box -500 -500 -72.40 500 500 72.40
+  outside cylinder -70.00 -120.40 -200. 0. 0. 1. 27 400
+  inside cylinder -70.00 -120.40 -200. 0. 0. 1. 40 400
+end structure
+structure ../structure_files/CA.pdb
+  number 220
+  inside box -500 -500 -72.40 500 500 72.40
+  outside cylinder 0 -120.40 -200. 0. 0. 1. 27 400
+  inside cylinder 0 -120.40 -200. 0. 0. 1. 40 400
+end structure
+structure ../structure_files/CA.pdb
+  number 220
+  inside box -500 -500 -72.40 500 500 72.40
+  outside cylinder 70.00 -120.40 -200. 0. 0. 1. 27 400
+  inside cylinder 70.00 -120.40 -200. 0. 0. 1. 40 400
+end structure
+structure ../structure_files/CA.pdb
+  number 220
+  inside box -500 -500 -72.40 500 500 72.40
+  outside cylinder -35.00 -180.60 -200. 0. 0. 1. 27 400
+  inside cylinder -35.00 -180.60 -200. 0. 0. 1. 40 400
+end structure
+structure ../structure_files/CA.pdb
+  number 220
+  inside box -500 -500 -72.40 500 500 72.40
+  outside cylinder 35.00 -180.60 -200. 0. 0. 1. 27 400
+  inside cylinder 35.00 -180.60 -200. 0. 0. 1. 40 400
+end structure
+structure ../structure_files/CA.pdb
+  number 220
+  inside box -500 -500 -72.40 500 500 72.40
+  outside cylinder 105.00 -180.60 -200. 0. 0. 1. 27 400
+  inside cylinder 105.00 -180.60 -200. 0. 0. 1. 40 400
+end structure
+structure ../structure_files/CA.pdb
+  number 220
+  inside box -500 -500 -72.40 500 500 72.40
+  outside cylinder -70.00 -240.80 -200. 0. 0. 1. 27 400
+  inside cylinder -70.00 -240.80 -200. 0. 0. 1. 40 400
+end structure
+structure ../structure_files/CA.pdb
+  number 220
+  inside box -500 -500 -72.40 500 500 72.40
+  outside cylinder 0 -240.80 -200. 0. 0. 1. 27 400
+  inside cylinder 0 -240.80 -200. 0. 0. 1. 40 400
+end structure
+structure ../structure_files/CA.pdb
+  number 220
+  inside box -500 -500 -72.40 500 500 72.40
+  outside cylinder 70.00 -240.80 -200. 0. 0. 1. 27 400
+  inside cylinder 70.00 -240.80 -200. 0. 0. 1. 40 400
+end structure
